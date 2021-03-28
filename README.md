@@ -6,13 +6,12 @@ You can report bugs or make sugguestions via issues, or contribute via pull requ
 Join our [Discord](https://discord.gg/MBCnqSf) and start with [Salty Chat](https://www.saltmine.de/)!
 
 # Setup Steps
-1. [Build the solution](https://github.com/saltminede/saltychat-docs/blob/master/installing-vs.md#installing-visual-studio) (`source\SaltyChat-RAGEMP.sln`) with Visual Studio 2019
-2. Copy contents of `dist`-folder into `server-files`
-3. Open `dotnet\resources\SaltyChat\meta.xml` and adjust the [variables](https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables)
-4. Open `source\SaltyChat-RAGEMP.sln` [Make sure you have the latest RAGEMP version] Now change the path in the file to your RageMP folder SaltyServer.csproj and SaltyClient.csproj. https://prnt.sc/10y72xi
-5. Add `<resource src="SaltyChat" />` to `server-files\dotnet\settings.xml`
-6. Now create the necessary DLL files and put them in the following folder `..\server-files\dotnet\resources\SaltyChat`
-7. Make sure `csharp` in `server-files\conf.json` is enabled
+1. Copy contents of `dist`-folder into `server-files`
+2. Open `dotnet\resources\SaltyChat\meta.xml` and adjust the [variables](https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables)
+3. Open `source\SaltyChat-RAGEMP.sln` [Make sure you have the latest RAGEMP version] Now change the path in the file to your RageMP folder SaltyServer.csproj and SaltyClient.csproj (https://github.com/saltminede/saltychat-docs/blob/master/installing-vs.md#installing-visual-studio)
+4. Add `<resource src="SaltyChat" />` to `server-files\dotnet\settings.xml`
+5. Now create the necessary DLL files and put them in the following folder `..\server-files\dotnet\resources\SaltyChat`
+6. Make sure `csharp` in `server-files\conf.json` is enabled
 
 # Keybinds
 Description | Control | Default QWERTY
